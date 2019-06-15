@@ -1,0 +1,26 @@
+library(MASS)
+A = data.frame(Cars93)
+str(A)
+hist(A$RPM)
+par(mfrow=c(2,3))
+hist(A1$Price)
+A1=A[1:20]
+hist(A1$weight,col=c(1,2,3,4))
+hist(A1$RPM,col=c(1,2,3,4,5),main="RPM",xlab="RPM", ylab="RPM of Engine",labels=TRUE,breaks= seq(4000,7000,500))
+hist(A1$RPM,legend)
+hist(A1$RPM,legend,col=1="PPP")
+str(A)
+A1=A[1:20,]
+A1
+hist(A1$price)
+str(A)
+hist(A1$Price,col=C(1,2,3,4,5))
+Age = c(20,22,24,26,28,30,32,34,36)
+Height = c(150,152,156,157,158,159,162,163,164)
+A=data.frame(Age,Height)
+STR (A)
+str(A)
+plot(A,xlab="AGE", col=c(1,2,3,4,5,6,7,8,9))
+A
+points(A$Age*0.1, A$Height*0.1, col = 5, pch = 3, cex = 2)
+points(A$Age*0.1, A$Height*0.1, pch=3, cex=2)
